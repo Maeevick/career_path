@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Data
+data
+
+# ReScript
+lib
+.merlin
+.bsb.lock
+*.mjs
