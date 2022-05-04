@@ -1,0 +1,45 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: app
+    environment: 
+      API_URL: http://api:8000/
+    depends_on:
+      - api
+    ports: 
+      - 3000:3000
+    restart: unless-stopped
+    volumes:
+    - ./app/src:/app/src
+
+  api:
+    build:
+      context: api
+    environment: 
+      NODE_ENV: development
+      DATABASE_USER: career_path
+      DATABASE_PASSWWORD: something
+      DATABASE_HOST: postgres
+      DATABASE_NAME: career_path
+      DATABASE_PORT: 5432
+    depends_on:
+      - db
+    ports: 
+      - 8000:8000
+    restart: unless-stopped
+    volumes:
+    - ./api/src:/api/src
+
+  db:
+    image: postgres:14
+    environment:
+      PUID: 1000
+      PGID: 1000
+      POSTGRES_USER: career_path
+      POSTGRES_PASSWORD: 'something'
+    volumes:
+        - ./data:/var/lib/postgresql/data/
+    ports:
+        - 5432:5432
+  
