@@ -11,3 +11,7 @@ However, I will build it as an open-sourced and public product. So, anybody can 
 ## Tech Notes
 
 - Next bindings and setup adapted from https://github.com/ryyppy/rescript-nextjs-template
+    - ```docker-compose up```launches production builds
+    - ```npm run build:watch``` launches rescript live compilation
+    - ```npm run test:watch``` launches rescript live test runner
+    - ```npm run start:watch``` launches next dev server
