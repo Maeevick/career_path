@@ -10,8 +10,6 @@ services:
     ports: 
       - 3000:3000
     restart: unless-stopped
-    volumes:
-    - ./app/src:/app/src
 
   api:
     build:
@@ -28,8 +26,6 @@ services:
     ports: 
       - 8000:8000
     restart: unless-stopped
-    volumes:
-    - ./api/src:/api/src
 
   db:
     image: postgres:14

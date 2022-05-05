@@ -11,8 +11,8 @@
     "test": "npm run build && pta 'src/*.test.mjs'",
     "test:watch": "onchange --initial 'src/*.res' -- npm run test",
     "test:coverage": "npm run test && c8 --all pta 'src/*.test.mjs'",
-    "start": "npm run test && node src/Main.mjs",
-    "start:watch": "onchange --initial 'src/**/*.res' -- npm run start"
+    "start": "next lint && next build && next start",
+    "start:watch": "next dev"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,10 @@
     "onchange": "^7.1.0",
     "pta": "^1.0.2",
     "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   }
 }
