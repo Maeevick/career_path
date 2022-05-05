@@ -1,2 +1,9 @@
 # career_path
-One opinionate career path for product people (product, design, tech...)
+__One opinionate career path for product people (product, design, tech...)__
+
+## Pitch
+This tool is about continuous learning and improvement in products' main domains: Product, Design, Tech,...; and subdomains: Product Strategy, Product Marketing, User Research, User Interface, User Experience, Data, Software Design, Crafts(wo)manship and more...
+
+## Goal
+Meanwhile, it's an opportunity to give ReScript a try on an actual project. __The goal is primarily for my own daily use.__
+However, I will build it as an open-sourced and public product. So, anybody can use it or fork it for its own use.
