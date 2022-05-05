@@ -1,19 +1,23 @@
 {
-    "name": "kata_sandbox_rescript",
-    "sources": [
-      {
-        "dir": "src",
-        "subdirs": true
-      }
-    ],
-    "package-specs": [
-      {
-        "module": "es6",
-        "in-source": true
-      }
-    ],
-    "suffix": ".mjs",
-    "bs-dependencies": [
-      "@dusty-phillips/rescript-zora"
-    ]
-  }
+  "name": "kata_sandbox_rescript",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".mjs",
+  "reason": {
+    "react-jsx": 3
+  },
+  "bs-dependencies": [
+    "@dusty-phillips/rescript-zora",
+    "@rescript/react"
+  ]
+}

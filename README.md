@@ -7,3 +7,7 @@ This tool is about continuous learning and improvement in products' main domains
 ## Goal
 Meanwhile, it's an opportunity to give ReScript a try on an actual project. __The goal is primarily for my own daily use.__
 However, I will build it as an open-sourced and public product. So, anybody can use it or fork it for its own use.
+
+## Tech Notes
+
+- Next bindings and setup adapted from https://github.com/ryyppy/rescript-nextjs-template

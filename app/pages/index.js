@@ -1,6 +1,5 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
-}
+import Home from "../src/primary/components/Home.mjs";
 
-export default HomePage
-  
+export default function HomeComponent(props) {
+    return <Home {...props}/>
+} 
