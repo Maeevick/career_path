@@ -1,1 +1,3 @@
-let isOk = () => true
+module Setup = {
+    let isOk = () => true
+}
