@@ -4,6 +4,7 @@ module Home = {
   <div>
     <Pitch />
     <Goal />
+    <Domains />
   </div>
 }
 
