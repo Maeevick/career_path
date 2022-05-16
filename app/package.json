@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Maeevick/career_path#readme",
   "devDependencies": {
-    "@dusty-phillips/rescript-zora": "^3.0.0",
+    "@dusty-phillips/rescript-zora": "^3.0.1",
     "@rescript/react": "^0.10.3",
     "autoprefixer": "10.4.7",
     "c8": "^7.11.3",
