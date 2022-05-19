@@ -39,7 +39,7 @@
     "gentype": "^4.3.0",
     "next-transpile-modules": "^9.0.0",
     "onchange": "^7.1.0",
-    "postcss": "^8.4.13",
+    "postcss": "^8.4.14",
     "postcss-cli": "^9.1.0",
     "pta": "^1.0.2",
     "rescript": "^9.1.4",
