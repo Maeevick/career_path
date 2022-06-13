@@ -33,7 +33,7 @@
     "@rescript/react": "^0.10.3",
     "autoprefixer": "10.4.7",
     "c8": "^7.11.3",
-    "cssnano": "5.1.10",
+    "cssnano": "5.1.11",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
     "gentype": "^4.4.0",
