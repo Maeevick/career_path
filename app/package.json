@@ -43,7 +43,7 @@
     "postcss-cli": "^9.1.0",
     "pta": "^1.0.2",
     "rescript": "^9.1.4",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.1.2"
   },
   "dependencies": {
     "next": "^12.1.6",
